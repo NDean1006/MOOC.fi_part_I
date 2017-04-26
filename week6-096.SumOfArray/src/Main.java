@@ -9,6 +9,12 @@ public class Main {
 
     public static int sum(int[] array) {
         // Write code here
-        return 0;
+        int i = 0;
+        int num = 0;
+        while (i < array.length) {
+        num += array[i];
+        i++;
+        }
+        return num;
     }
 }
